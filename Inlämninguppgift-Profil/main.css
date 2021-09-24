@@ -34,7 +34,7 @@ nav a {
 .section1{
   display: flex;
   flex-direction:row;
-  gap: 80px;px;
+  gap: 80px;
   justify-content:space-around;
  background-color: #bec2e4;
  height: 500px; 
@@ -80,8 +80,25 @@ margin-top: 50px;
 
 .section2{
   display: flex;
-  flex-direction:row;
-  gap: 80px;px;
-  justify-content:space-around;
+  flex-direction:column;
+  align-items: center;
+  text-align:center;
  background-color: #FFBBCF;
  height: 500px; 
+}
+
+table{
+width: 50%;
+
+/*border-spacing: 40px;*/
+
+}
+th, caption {
+  text-align:left
+}
+
+table, th, td {
+  border: 1px solid #000;
+  padding: 10px; 
+  border-collapse: collapse;
+}
