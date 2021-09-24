@@ -1,0 +1,87 @@
+html, body{
+    margin: 0;
+    padding: 0;
+      }
+#wrapper{
+  display:flex;
+  flex-direction:column;
+  background-color: #ffffff;
+  font-family:'Courier New', Courier, monospace
+
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: baseline;
+    padding: 0 0 10px 0;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+nav a {
+        font-size: 18px;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        padding: 6px;
+      }
+      nav a:hover{
+          background-color: #FFBBCF;
+
+                font-size: 18px;
+      }
+
+.section1{
+  display: flex;
+  flex-direction:row;
+  gap: 80px;px;
+  justify-content:space-around;
+ background-color: #bec2e4;
+ height: 500px; 
+
+}
+#sectiontext{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 160px;
+  margin-left: 80px;
+}
+.section1 h2{
+  
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  
+}
+
+#profilbild{
+width: 30%;
+margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.footer{
+  display: flex;
+  flex-direction:column;
+    align-items: center; 
+    text-align:center;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+#footerinnehåll{
+  background-color:white;
+  color:black;
+  font-size: 14px;
+
+  text-decoration: none;
+
+}
+
+.section2{
+  display: flex;
+  flex-direction:row;
+  gap: 80px;px;
+  justify-content:space-around;
+ background-color: #FFBBCF;
+ height: 500px; 
