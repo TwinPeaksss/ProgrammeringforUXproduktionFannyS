@@ -61,7 +61,7 @@ margin-top: 50px;
   margin-left: 50px;
 }
 
-.footer{
+footer{
   display: flex;
   flex-direction:column;
     align-items: center; 
@@ -69,14 +69,14 @@ margin-top: 50px;
     border-top-style: solid;
     border-top-width: 1px;
 }
-#footerinnehåll{
-  background-color:white;
-  color:black;
-  font-size: 14px;
 
-  text-decoration: none;
+    .footerinnehåll{
+      background-color:white;
+      color:black;
+      font-size: 14px;
+      text-decoration: none;
+  }
 
-}
 
 .section2{
   display: flex;
